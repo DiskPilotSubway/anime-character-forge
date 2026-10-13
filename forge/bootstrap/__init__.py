@@ -1,0 +1,1 @@
+"""Bootstrap layer — app entry, CLI, lifecycle."""
