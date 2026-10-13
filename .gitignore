@@ -1,0 +1,85 @@
+# anime-character-forge — editor/IDE cruft
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Test + coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.pytype/
+
+# Model / generation artifacts (large, never commit)
+forge_models/
+*.safetensors
+*.ckpt
+*.pt
+*.onnx
+*.gguf
+*.pth
+
+# Generated character output
+characters/out/
+characters/thumbs/
+renders/
+*.png
+*.jpg
+*.jpeg
+*.webp
+!docs/**/*.png
+
+# Local config with secrets
+config/local.toml
+config/secrets.toml
+*.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Plugin dev scratch
+plugins/*/scratch/
+plugins/*/*.log
+*.log
